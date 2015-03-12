@@ -5,18 +5,36 @@
 #  letters return -1. Words will be separated by spaces.
 
 def LetterCountI(str):
+    strList = str.split(" ")
+    print(strList)
+    globalMax = 0
+    wordMax = 0
+    listLetter = []
+    letterCount = []
+    listWords = []
+    result = ""
 
-  # code goes here
-  text = "Code must be properly"
-  more = " indented in Python!"
-  return text + more
+    for word in strList:
+        for character in word:
+            if character not in listLetter:
+                listLetter.append(character)
+                letterCount.append(1)
+            else:
+                letterCount[listLetter.index(character)]+=1
+        for x in range(len(letterCount)):
+            if letterCount[x] > wordMax:
+                wordMax = letterCount[x]
+        if wordMax > globalMax:
+            globalMax = wordMax
+            result = word
+        listLetter.clear()
+        letterCount.clear()
+        print(wordMax)
+        wordMax = 0
 
+    return result
 
-# keep this function call here
-# to see how to enter arguments in Python scroll down
 print(LetterCountI(input("Type in a String")))
-
-
 
 
 
