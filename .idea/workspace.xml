@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd98d47a-b08a-456c-a0cb-c3312df5b96f" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\JinHoon\Documents\GitHub\Coderbyte\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\JinHoon\Documents\GitHub\Coderbyte\.idea\Coderbyte.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\JinHoon\Documents\GitHub\Coderbyte\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\JinHoon\Documents\GitHub\Coderbyte\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\JinHoon\Documents\GitHub\Coderbyte\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\JinHoon\Documents\GitHub\Coderbyte\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\JinHoon\Documents\GitHub\Coderbyte\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\JinHoon\Documents\GitHub\Coderbyte\.idea\workspace.xml" afterPath="" />
-    </list>
+    <list default="true" id="cd98d47a-b08a-456c-a0cb-c3312df5b96f" name="Default" comment="" />
     <ignored path="Coderbyte.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
