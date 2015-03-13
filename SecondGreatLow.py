@@ -5,16 +5,22 @@ def SecondGreatLow(arr):
     for index in range(len(inputList)):
         listInt.append(int(inputList[index]))
 
-    listInt = sorted(listInt)
+    print(listInt)
 
+    finalList = []
+    seen = set()
     for entry in listInt:
-        
+        if entry not in seen:
+            finalList.append(entry)
+            seen.add(entry)
 
+    finalList = sorted(finalList)
+    print(finalList)
+    secondGreatest = finalList[len(finalList)-2]
+    secondLowest = finalList[1]
 
-    secondGreatest = listInt[len(listInt)-2]
-    secondLowest = listInt[1]
+    result = str(secondLowest) + " " + str(secondGreatest)
 
-
-
+    return result
 
 print(SecondGreatLow(input("Type in an Array")))
